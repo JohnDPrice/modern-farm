@@ -5,6 +5,8 @@ import {createSoybean} from "./seeds/soybean.js"
 import {createWheat} from "./seeds/wheat.js"
 import {createSunflower} from "./seeds/sunflower.js"
 import {createCorn} from "./seeds/corn.js"
+import {addPlant} from "./field.js"
+import {usePlants} from "./field.js"
 
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
@@ -26,3 +28,5 @@ console.log(sunflowerSeed)
 
 const cornSeed = createCorn()
 console.log(cornSeed)
+
+
