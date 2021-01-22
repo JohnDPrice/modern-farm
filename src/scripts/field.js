@@ -1,11 +1,12 @@
-let plantContainer = [
+let plantContainerArray = [
 
 ];
 
 export const addPlant = (seedObject) => {
-    plantContainer.push(seedObject)
+    plantContainerArray.push(seedObject)
 }
 
 export const usePlants = () => {
+    let plantContainer = plantContainerArray
     return plantContainer
 }
